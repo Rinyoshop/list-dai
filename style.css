@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Base styles for the whole page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content area */
+main {
+    padding: 30px;
+}
+
+/* Headings */
+h1, h2 {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #777;
+    padding: 20px 10px;
+    background-color: #eaeaea;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
